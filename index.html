@@ -11,10 +11,10 @@
 </head>
 <body>
    <main>
-    <section class="w-3/4 min-h-[480px] bg-[#8eb0ff] mx-auto mt-10 shadow-xl rounded-lg text-center md:px-10 md:py-4">
+    <section class="md:w-3/4 md:h-[600px] h-screen bg-[#8eb0ff] mx-auto md:mt-10 shadow-xl md:rounded-lg text-center md:px-10 py-4">
         <h1 class="font-bold text-white text-2xl mb-4">My Text Editor</h1>
-        <div class="bg-[#acbdf6c5] w-full min-h-96 mx-auto border-solid rounded-md md:p-2">
-            <div class="flex md:flex-row flex-col gap-4 justify-between items-center md:px-3 pb-1 mb-1">
+        <div class="bg-[#acbdf6c5] w-full mx-auto border-solid rounded-md md:p-2">
+            <div class="flex md:flex-row flex-col gap-4 justify-between items-center px-3 py-2 ">
                 <div>
                     <button id="boldBtn"><i class="fa-solid fa-bold hover:bg-slate-400 rounded-md hover:bg-opacity-70 p-1"></i></button>
                     <button id="italicBtn"><i class="fa-solid fa-italic hover:bg-slate-400 rounded-md hover:bg-opacity-70 p-1"></i></button>
@@ -32,7 +32,7 @@
                     <input type="color" name="" id="colorInputBtn" class="w-14 h-6 rounded-sm ">
                 </div>
             </div>
-            <textarea class="textarea w-full h-80 text-lg resize-none rounded-none " id="placeholder"></textarea>
+            <textarea class="textarea w-full md:h-[450px] h-[500px] text-lg resize-none rounded-none " id="placeholder"></textarea>
         </div>
     </section>
    </main>
